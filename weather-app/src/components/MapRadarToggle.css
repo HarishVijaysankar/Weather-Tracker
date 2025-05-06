@@ -1,0 +1,27 @@
+.view-toggle-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .view-toggle-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .view-toggle-button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .feature-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
